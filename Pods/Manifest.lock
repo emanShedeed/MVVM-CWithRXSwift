@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (5.4.3)
+  - JellyGif (1.0.2)
+  - ProgressHUD (13.6)
+
+DEPENDENCIES:
+  - Alamofire
+  - JellyGif
+  - ProgressHUD (from `https://github.com/relatedcode/ProgressHUD.git`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - JellyGif
+
+EXTERNAL SOURCES:
+  ProgressHUD:
+    :git: https://github.com/relatedcode/ProgressHUD.git
+
+CHECKOUT OPTIONS:
+  ProgressHUD:
+    :commit: a0c4a68143acc3b809e5b46fa81f82af13691d8a
+    :git: https://github.com/relatedcode/ProgressHUD.git
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  JellyGif: 52b7569b7015f3b1ab2a6be30e4a81d47f974c97
+  ProgressHUD: 4bdaa0d2ddf676b23324b199f9facffb5c3a1620
+
+PODFILE CHECKSUM: 4be74ce00d13318770ae92d389e54084ce46c838
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ProductDetailsCollectionViewCell" customModule="PTC_IOS_TEST" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tQ6-ue-kuI">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppleIphone" translatesAutoresizingMaskIntoConstraints="NO" id="0it-FF-VLk">
+                                <rect key="frame" x="5" y="10" width="90" height="85"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0it-FF-VLk" secondAttribute="trailing" constant="5" id="3UZ-kD-SJe"/>
+                            <constraint firstItem="0it-FF-VLk" firstAttribute="leading" secondItem="tQ6-ue-kuI" secondAttribute="leading" constant="5" id="Mlw-ow-KB9"/>
+                            <constraint firstAttribute="bottom" secondItem="0it-FF-VLk" secondAttribute="bottom" constant="5" id="j8V-p6-NU3"/>
+                            <constraint firstItem="0it-FF-VLk" firstAttribute="top" secondItem="tQ6-ue-kuI" secondAttribute="top" constant="10" id="pvF-Iz-v1f"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="tQ6-ue-kuI" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="HHj-zo-IC9"/>
+                <constraint firstAttribute="trailing" secondItem="tQ6-ue-kuI" secondAttribute="trailing" id="cTX-cI-GeD"/>
+                <constraint firstAttribute="bottom" secondItem="tQ6-ue-kuI" secondAttribute="bottom" id="iVW-hR-RgF"/>
+                <constraint firstItem="tQ6-ue-kuI" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="vAM-YG-kMt"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="productImageView" destination="0it-FF-VLk" id="dtG-Wk-a62"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="129"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="AppleIphone" width="500" height="500"/>
+    </resources>
+</document>

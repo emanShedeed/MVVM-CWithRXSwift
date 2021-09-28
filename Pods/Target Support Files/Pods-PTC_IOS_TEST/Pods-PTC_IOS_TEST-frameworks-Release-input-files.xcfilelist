@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-PTC_IOS_TEST/Pods-PTC_IOS_TEST-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/JellyGif/JellyGif.framework
+${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework
